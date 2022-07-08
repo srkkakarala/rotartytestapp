@@ -1,0 +1,13 @@
+{
+  "resourceName": "maindata",
+  "policyUUID": "396caf58",
+  "bucketName": "rotarydatamain",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "S3Trigger9dd61952",
+  "groupAccess": {}
+}
