@@ -9,8 +9,7 @@ export const createUploadHistory = /* GraphQL */ `
     createUploadHistory(input: $input, condition: $condition) {
       id
       username
-      status
-      uploadtime
+      filename
       createdAt
       updatedAt
     }
@@ -24,8 +23,7 @@ export const updateUploadHistory = /* GraphQL */ `
     updateUploadHistory(input: $input, condition: $condition) {
       id
       username
-      status
-      uploadtime
+      filename
       createdAt
       updatedAt
     }
@@ -39,8 +37,7 @@ export const deleteUploadHistory = /* GraphQL */ `
     deleteUploadHistory(input: $input, condition: $condition) {
       id
       username
-      status
-      uploadtime
+      filename
       createdAt
       updatedAt
     }

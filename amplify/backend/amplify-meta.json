@@ -42,7 +42,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/auth/rotaryphse2b0bb85e6-cloudformation-template.json",
         "logicalId": "authrotaryphse2b0bb85e6"
       },
-      "lastPushTimeStamp": "2022-07-08T09:31:46.588Z",
+      "lastPushTimeStamp": "2022-07-11T12:29:29.669Z",
       "output": {
         "UserPoolId": "us-east-1_IJT2shorA",
         "AppClientIDWeb": "5e1m8pb9md3qvkc35tn074did4",
@@ -78,8 +78,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apirotaryphse2"
       },
-      "lastPushTimeStamp": "2022-07-08T09:31:46.590Z",
-      "lastPushDirHash": "B0+AKjctY0qIw8nbS6kUPUh8dHA="
+      "lastPushTimeStamp": "2022-07-11T12:29:32.929Z",
+      "lastPushDirHash": "XVPizfvgtTDKgHhnKoDSGtvcbV0="
     }
   },
   "function": {
@@ -99,7 +99,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/function/S3Trigger9dd61952-cloudformation-template.json",
         "logicalId": "functionS3Trigger9dd61952"
       },
-      "lastPushTimeStamp": "2022-07-08T09:31:46.591Z",
+      "lastPushTimeStamp": "2022-07-11T12:29:29.678Z",
       "output": {
         "Region": "us-east-1",
         "Arn": "arn:aws:lambda:us-east-1:557572855580:function:S3Trigger9dd61952-dev",
@@ -124,7 +124,7 @@
           ]
         }
       ],
-      "lastPushTimeStamp": "2022-07-08T09:31:48.758Z",
+      "lastPushTimeStamp": "2022-07-11T12:29:29.684Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
         "logicalId": "storagemaindata"

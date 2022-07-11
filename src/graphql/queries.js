@@ -6,8 +6,7 @@ export const getUploadHistory = /* GraphQL */ `
     getUploadHistory(id: $id) {
       id
       username
-      status
-      uploadtime
+      filename
       createdAt
       updatedAt
     }
@@ -23,8 +22,7 @@ export const listUploadHistories = /* GraphQL */ `
       items {
         id
         username
-        status
-        uploadtime
+        filename
         createdAt
         updatedAt
       }

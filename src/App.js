@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "@aws-amplify/ui-react/styles.css";
 import {
-  withAuthenticator,
+  ThemeProvider,
+  Theme,
+  Authenticator,
   Button,
   Heading,
   View,
@@ -18,7 +20,19 @@ import { createUploadHistory } from './graphql/mutations';
 import { listUploadHistories } from './graphql/queries';
 
 
-function App({ signOut }) {
+export default function App() {
+  const theme = {
+    name: 'my-theme',
+    tokens: {
+      colors: {
+        font: {
+          primary: { value: '#000000' },
+          // ...
+        },
+      },
+    },
+  };
+
   const initialState = { username: 'kalyan', status: 'success' , uploadtime: '08-07-2022 14:37'}
 
   const [formState, setFormState] = useState(initialState)
@@ -90,6 +104,9 @@ async function fetchHistory() {
 }
 
   return (
+    <ThemeProvider theme={theme}>
+    <Authenticator hideSignUp={true}>
+      {({ signOut}) => (
     <View className="App">
       <Card>
         <Heading level={1}>We now have Auth!</Heading>
@@ -129,7 +146,10 @@ async function fetchHistory() {
       
       </div>
     </View>
+    )}
+    </Authenticator>
+    </ThemeProvider>
   );
 }
 
-export default withAuthenticator(App);
+

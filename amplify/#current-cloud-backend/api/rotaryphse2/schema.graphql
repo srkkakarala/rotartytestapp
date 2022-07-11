@@ -5,6 +5,5 @@ input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONL
 type UploadHistory @model {
   id: ID!
   username: String!
-  status: String
-  uploadtime: String
+  filename: String!
 }
