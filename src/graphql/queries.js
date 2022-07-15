@@ -7,6 +7,9 @@ export const getUploadHistory = /* GraphQL */ `
       id
       username
       filename
+      status
+      filekey
+      recordscount
       createdAt
       updatedAt
     }
@@ -23,6 +26,9 @@ export const listUploadHistories = /* GraphQL */ `
         id
         username
         filename
+        status
+        filekey
+        recordscount
         createdAt
         updatedAt
       }

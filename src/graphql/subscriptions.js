@@ -7,6 +7,9 @@ export const onCreateUploadHistory = /* GraphQL */ `
       id
       username
       filename
+      status
+      filekey
+      recordscount
       createdAt
       updatedAt
     }
@@ -18,6 +21,9 @@ export const onUpdateUploadHistory = /* GraphQL */ `
       id
       username
       filename
+      status
+      filekey
+      recordscount
       createdAt
       updatedAt
     }
@@ -29,6 +35,9 @@ export const onDeleteUploadHistory = /* GraphQL */ `
       id
       username
       filename
+      status
+      filekey
+      recordscount
       createdAt
       updatedAt
     }

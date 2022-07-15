@@ -18,7 +18,7 @@
       "function": {
         "S3Trigger9dd61952": {
           "deploymentBucketName": "amplify-rotaryphse2-dev-171248-deployment",
-          "s3Key": "amplify-builds/S3Trigger9dd61952-55546676447559417076-build.zip"
+          "s3Key": "amplify-builds/S3Trigger9dd61952-7032624d4b3568677737-build.zip"
         }
       }
     }

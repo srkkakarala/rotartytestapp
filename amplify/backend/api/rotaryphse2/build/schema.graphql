@@ -3,6 +3,9 @@ type UploadHistory {
   id: ID!
   username: String!
   filename: String!
+  status: String
+  filekey: String
+  recordscount: Int
   createdAt: AWSDateTime!
   updatedAt: AWSDateTime!
 }
@@ -107,6 +110,9 @@ input ModelUploadHistoryFilterInput {
   id: ModelIDInput
   username: ModelStringInput
   filename: ModelStringInput
+  status: ModelStringInput
+  filekey: ModelStringInput
+  recordscount: ModelIntInput
   and: [ModelUploadHistoryFilterInput]
   or: [ModelUploadHistoryFilterInput]
   not: ModelUploadHistoryFilterInput
@@ -120,6 +126,9 @@ type Query {
 input ModelUploadHistoryConditionInput {
   username: ModelStringInput
   filename: ModelStringInput
+  status: ModelStringInput
+  filekey: ModelStringInput
+  recordscount: ModelIntInput
   and: [ModelUploadHistoryConditionInput]
   or: [ModelUploadHistoryConditionInput]
   not: ModelUploadHistoryConditionInput
@@ -129,12 +138,18 @@ input CreateUploadHistoryInput {
   id: ID
   username: String!
   filename: String!
+  status: String
+  filekey: String
+  recordscount: Int
 }
 
 input UpdateUploadHistoryInput {
   id: ID!
   username: String
   filename: String
+  status: String
+  filekey: String
+  recordscount: Int
 }
 
 input DeleteUploadHistoryInput {

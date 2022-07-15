@@ -6,4 +6,7 @@ type UploadHistory @model {
   id: ID!
   username: String!
   filename: String!
+  status: String
+  filekey: String
+  recordscount: Int
 }

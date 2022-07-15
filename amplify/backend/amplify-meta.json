@@ -42,7 +42,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/auth/rotaryphse2b0bb85e6-cloudformation-template.json",
         "logicalId": "authrotaryphse2b0bb85e6"
       },
-      "lastPushTimeStamp": "2022-07-11T12:29:29.669Z",
+      "lastPushTimeStamp": "2022-07-15T15:47:45.905Z",
       "output": {
         "UserPoolId": "us-east-1_IJT2shorA",
         "AppClientIDWeb": "5e1m8pb9md3qvkc35tn074did4",
@@ -78,8 +78,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apirotaryphse2"
       },
-      "lastPushTimeStamp": "2022-07-11T12:29:32.929Z",
-      "lastPushDirHash": "XVPizfvgtTDKgHhnKoDSGtvcbV0="
+      "lastPushTimeStamp": "2022-07-15T15:47:48.822Z",
+      "lastPushDirHash": "HOdBFRkhIc4sgHCelyNxdg7q9XA="
     }
   },
   "function": {
@@ -87,26 +87,26 @@
       "service": "Lambda",
       "providerPlugin": "awscloudformation",
       "build": true,
-      "lastBuildTimeStamp": "2022-07-07T19:13:45.375Z",
+      "lastBuildTimeStamp": "2022-07-15T15:45:43.589Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2022-07-07T19:13:45.408Z",
-      "distZipFilename": "S3Trigger9dd61952-55546676447559417076-build.zip",
+      "lastPackageTimeStamp": "2022-07-15T15:45:43.621Z",
+      "distZipFilename": "S3Trigger9dd61952-7032624d4b3568677737-build.zip",
       "s3Bucket": {
         "deploymentBucketName": "amplify-rotaryphse2-dev-171248-deployment",
-        "s3Key": "amplify-builds/S3Trigger9dd61952-55546676447559417076-build.zip"
+        "s3Key": "amplify-builds/S3Trigger9dd61952-7032624d4b3568677737-build.zip"
       },
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/function/S3Trigger9dd61952-cloudformation-template.json",
         "logicalId": "functionS3Trigger9dd61952"
       },
-      "lastPushTimeStamp": "2022-07-11T12:29:29.678Z",
+      "lastPushTimeStamp": "2022-07-15T15:47:48.822Z",
       "output": {
         "Region": "us-east-1",
         "Arn": "arn:aws:lambda:us-east-1:557572855580:function:S3Trigger9dd61952-dev",
         "Name": "S3Trigger9dd61952-dev",
         "LambdaExecutionRole": "S3Trigger9dd61952LambdaRole9dd61952-dev"
       },
-      "lastPushDirHash": "YgWnGBFjDJ3TEGeNogKybaV+VUA="
+      "lastPushDirHash": "4S5NyEwWiu09bue5GAm1CWSQhYE="
     }
   },
   "storage": {
@@ -124,7 +124,7 @@
           ]
         }
       ],
-      "lastPushTimeStamp": "2022-07-11T12:29:29.684Z",
+      "lastPushTimeStamp": "2022-07-15T15:47:45.921Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
         "logicalId": "storagemaindata"

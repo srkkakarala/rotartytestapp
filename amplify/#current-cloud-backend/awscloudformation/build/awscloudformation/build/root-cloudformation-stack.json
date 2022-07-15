@@ -216,7 +216,7 @@
           "DynamoDBBillingMode": "PAY_PER_REQUEST",
           "DynamoDBEnableServerSideEncryption": false,
           "S3DeploymentBucket": "amplify-rotaryphse2-dev-171248-deployment",
-          "S3DeploymentRootKey": "amplify-appsync-files/736e9aebeb8286554efab109e94a57fb52c4b49d",
+          "S3DeploymentRootKey": "amplify-appsync-files/ca972877b05e424e15d8e9fae65b1d236f342d40",
           "env": "dev"
         }
       }
@@ -227,7 +227,7 @@
         "TemplateURL": "https://s3.amazonaws.com/amplify-rotaryphse2-dev-171248-deployment/amplify-cfn-templates/function/S3Trigger9dd61952-cloudformation-template.json",
         "Parameters": {
           "deploymentBucketName": "amplify-rotaryphse2-dev-171248-deployment",
-          "s3Key": "amplify-builds/S3Trigger9dd61952-55546676447559417076-build.zip",
+          "s3Key": "amplify-builds/S3Trigger9dd61952-7032624d4b3568677737-build.zip",
           "env": "dev"
         }
       }
